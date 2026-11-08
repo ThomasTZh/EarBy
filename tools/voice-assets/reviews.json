@@ -1,0 +1,205 @@
+{
+  "packId": "english-intervals",
+  "packVersion": "1.0.0",
+  "reviewedAt": "2026-10-07",
+  "reviewer": "user (project owner)",
+  "method": "listened to the bundled clips on the development host",
+  "outcome": "all 13 answers accepted by the reviewer",
+  "globalFindings": [
+    {
+      "id": "*",
+      "verdict": "rejected",
+      "reason": "speaking rate is too fast for all 13 phrases"
+    }
+  ],
+  "entries": [
+    {
+      "id": "interval.unison",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": true,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_second",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": true,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_second",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted after replacing the noisy take with d4",
+      "contentAccepted": true,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_third",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_third",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.perfect_fourth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.tritone",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.perfect_fifth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": true,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_sixth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_sixth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": true,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.octave",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer",
+      "contentAccepted": false,
+      "reviewedAt": "2026-10-07",
+      "reviewer": "user (project owner)"
+    }
+  ],
+  "regenerationPlan": [
+    "Slow the speaking rate for every phrase (Chatterbox: raise cfg_weight and/or lower exaggeration).",
+    "Flatten the pitch contour for minor_third, major_third, perfect_fourth, tritone, minor_sixth, minor_seventh and major_seventh (lower exaggeration, keep a falling contour).",
+    "Remove the question-like rise at the end of major_seventh.",
+    "Fix the clipped onset of octave; verify the trimmed pad never removes the first consonant.",
+    "Re-run the numeric speech checks, rebuild the manifest and have the reviewer listen again.",
+    "Keep review.humanAccepted=false until a listening pass accepts every entry."
+  ],
+  "pianoRoute": {
+    "option": "A",
+    "decidedAt": "2026-10-07",
+    "note": "Download the MuseScore General SF2 source and cut a piano-only subset within the 32 MiB budget."
+  },
+  "preferredPhone": {
+    "model": "Google Pixel 8",
+    "note": "arm64-v8a; emulators are supplementary only and cannot close the device gate."
+  },
+  "decisions": {
+    "tempo": "0.85 (reviewer listened to rate probes and chose 85)",
+    "octaveTake": "octave.flat85 (reviewer listened and accepted)",
+    "majorSeventhTake": "rate-probe tempo85 (reviewer listened and accepted)"
+  },
+  "pendingFinalReview": true,
+  "deliveryRule": {
+    "contour": "falling at the end (statement, never question-like)",
+    "stress": "no accentuation on the first word",
+    "rate": "tempo 0.85 as previously accepted"
+  },
+  "acceptedAfterSecondPass": [
+    "interval.major_seventh",
+    "interval.major_sixth",
+    "interval.perfect_fifth",
+    "interval.perfect_fourth",
+    "interval.unison"
+  ],
+  "rejectedAfterSecondPass": [
+    "interval.major_second",
+    "interval.major_third",
+    "interval.minor_second",
+    "interval.minor_seventh",
+    "interval.minor_sixth",
+    "interval.minor_third",
+    "interval.octave",
+    "interval.tritone"
+  ],
+  "perWordSplitting": {
+    "verdict": "failed",
+    "observed": [
+      "audible break between the two words",
+      "rising tone at the end of the first or second word"
+    ],
+    "decision": "do not ship per-word joining; keep single-word/whole-phrase takes only"
+  },
+  "acceptedFinal": [
+    "interval.major_second",
+    "interval.major_seventh",
+    "interval.major_sixth",
+    "interval.major_third",
+    "interval.minor_second",
+    "interval.minor_seventh",
+    "interval.minor_sixth",
+    "interval.minor_third",
+    "interval.octave",
+    "interval.perfect_fifth",
+    "interval.perfect_fourth",
+    "interval.tritone",
+    "interval.unison"
+  ],
+  "notesOnAcceptedWithCaveat": {
+    "interval.minor_third": "small tone turn on the word 'minor'; the reviewer allows keeping it"
+  }
+}

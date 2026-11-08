@@ -1,0 +1,118 @@
+{
+  "packId": "english-answers",
+  "packVersion": "0.2.0",
+  "reviewedAt": "2026-10-14",
+  "reviewer": "user (project owner)",
+  "method": "listened to the Piper refresh folder (new takes vs the archived Chatterbox takes) and accepted all 13",
+  "outcome": "all 13 interval clips re-recorded with Piper and accepted",
+  "notes": [
+    "Replaces the Chatterbox interval takes approved on 2026-10-07; the old takes and their manifest entries are archived under candidates-superseded-chatterbox-intervals-2026-10-14.",
+    "Same voice the owner accepted for the vocabulary clips (en_GB-alba-medium) and the same postprocessing pipeline."
+  ],
+  "entries": [
+    {
+      "id": "interval.unison",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_second",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_second",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_third",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_third",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.perfect_fourth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.tritone",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.perfect_fifth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_sixth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_sixth",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.minor_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.major_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "interval.octave",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted in the 2026-10-14 interval voice refresh",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    }
+  ]
+}

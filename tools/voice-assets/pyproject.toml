@@ -1,0 +1,16 @@
+[project]
+name = "passive-ear-voice-assets"
+version = "0.1.0"
+description = "Development-time generation and review of the bundled English answer pack"
+requires-python = "==3.11.*"
+dependencies = [
+    "chatterbox-tts==0.1.7",
+    "piper-tts>=1.3.0",
+    "numpy<2.0.0,>=1.24.0",
+    # Chatterbox's Perth watermarker imports pkg_resources, which modern setuptools no longer
+    # ships by default. Pinned here so the accepted pack keeps its upstream watermark.
+    "setuptools==80.9.0",
+]
+
+[dependency-groups]
+dev = []

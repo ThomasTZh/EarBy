@@ -1,0 +1,628 @@
+{
+  "version": 1,
+  "note": "Declarative semantic voice catalog (M4.3). Tools consume it; core:training tests validate it against VoiceVocabulary. 'bundled' marks entries whose WAVs ship in the app today.",
+  "entries": [
+    {
+      "id": "chord.augmented",
+      "namespace": "chord",
+      "spokenText": "augmented",
+      "bundled": true
+    },
+    {
+      "id": "chord.diminished",
+      "namespace": "chord",
+      "spokenText": "diminished",
+      "lengthScale": 1.15,
+      "bundled": true
+    },
+    {
+      "id": "chord.diminished_seventh",
+      "namespace": "chord",
+      "spokenText": "diminished seventh",
+      "lengthScale": 1.15,
+      "bundled": true
+    },
+    {
+      "id": "chord.dominant_seventh",
+      "namespace": "chord",
+      "spokenText": "dominant seventh",
+      "bundled": true
+    },
+    {
+      "id": "chord.half_diminished",
+      "namespace": "chord",
+      "spokenText": "half diminished",
+      "lengthScale": 1.15,
+      "bundled": true
+    },
+    {
+      "id": "chord.inversion.first",
+      "namespace": "chord",
+      "spokenText": "first inversion",
+      "bundled": true
+    },
+    {
+      "id": "chord.inversion.root",
+      "namespace": "chord",
+      "spokenText": "root position",
+      "bundled": true
+    },
+    {
+      "id": "chord.inversion.second",
+      "namespace": "chord",
+      "spokenText": "second inversion",
+      "bundled": true
+    },
+    {
+      "id": "chord.inversion.third",
+      "namespace": "chord",
+      "spokenText": "third inversion",
+      "bundled": true
+    },
+    {
+      "id": "chord.major",
+      "namespace": "chord",
+      "spokenText": "major",
+      "bundled": true
+    },
+    {
+      "id": "chord.major_seventh",
+      "namespace": "chord",
+      "spokenText": "major seventh",
+      "bundled": true,
+      "sharesAudioWith": "interval.major_seventh"
+    },
+    {
+      "id": "chord.minor",
+      "namespace": "chord",
+      "spokenText": "minor",
+      "bundled": true
+    },
+    {
+      "id": "chord.minor_seventh",
+      "namespace": "chord",
+      "spokenText": "minor seventh",
+      "bundled": true,
+      "sharesAudioWith": "interval.minor_seventh"
+    },
+    {
+      "id": "chord.sus2",
+      "namespace": "chord",
+      "spokenText": "sus two",
+      "bundled": true
+    },
+    {
+      "id": "chord.sus4",
+      "namespace": "chord",
+      "spokenText": "sus four",
+      "ttsText": "sus four",
+      "ttsVoice": "jenny",
+      "bundled": true
+    },
+    {
+      "id": "connector.ascending",
+      "namespace": "connector",
+      "spokenText": "ascending",
+      "bundled": true
+    },
+    {
+      "id": "connector.descending",
+      "namespace": "connector",
+      "spokenText": "descending",
+      "bundled": true
+    },
+    {
+      "id": "connector.or",
+      "namespace": "connector",
+      "spokenText": "or",
+      "bundled": true
+    },
+    {
+      "id": "connector.unison",
+      "namespace": "connector",
+      "spokenText": "unison",
+      "bundled": true,
+      "sharesAudioWith": "interval.unison"
+    },
+    {
+      "id": "degree.five",
+      "namespace": "degree",
+      "spokenText": "five",
+      "bundled": true
+    },
+    {
+      "id": "degree.four",
+      "namespace": "degree",
+      "spokenText": "four",
+      "ttsVoice": "jenny",
+      "bundled": true
+    },
+    {
+      "id": "degree.one",
+      "namespace": "degree",
+      "spokenText": "one",
+      "bundled": true
+    },
+    {
+      "id": "degree.seven",
+      "namespace": "degree",
+      "spokenText": "seven",
+      "bundled": true
+    },
+    {
+      "id": "degree.six",
+      "namespace": "degree",
+      "spokenText": "six",
+      "bundled": true
+    },
+    {
+      "id": "degree.three",
+      "namespace": "degree",
+      "spokenText": "three",
+      "lengthScale": 1.2,
+      "bundled": true
+    },
+    {
+      "id": "degree.two",
+      "namespace": "degree",
+      "spokenText": "two",
+      "bundled": true,
+      "lengthScale": 1.6,
+      "ttsVoice": "cori",
+      "carrierText": "the number is . . . two"
+    },
+    {
+      "id": "interval.major_second",
+      "namespace": "interval",
+      "spokenText": "Major second",
+      "bundled": true
+    },
+    {
+      "id": "interval.major_seventh",
+      "namespace": "interval",
+      "spokenText": "Major seventh",
+      "bundled": true
+    },
+    {
+      "id": "interval.major_sixth",
+      "namespace": "interval",
+      "spokenText": "Major sixth",
+      "bundled": true
+    },
+    {
+      "id": "interval.major_third",
+      "namespace": "interval",
+      "spokenText": "Major third",
+      "bundled": true
+    },
+    {
+      "id": "interval.minor_second",
+      "namespace": "interval",
+      "spokenText": "Minor second",
+      "bundled": true
+    },
+    {
+      "id": "interval.minor_seventh",
+      "namespace": "interval",
+      "spokenText": "Minor seventh",
+      "bundled": true
+    },
+    {
+      "id": "interval.minor_sixth",
+      "namespace": "interval",
+      "spokenText": "Minor sixth",
+      "bundled": true
+    },
+    {
+      "id": "interval.minor_third",
+      "namespace": "interval",
+      "spokenText": "Minor third",
+      "bundled": true
+    },
+    {
+      "id": "interval.octave",
+      "namespace": "interval",
+      "spokenText": "Octave",
+      "bundled": true
+    },
+    {
+      "id": "interval.perfect_fifth",
+      "namespace": "interval",
+      "spokenText": "Perfect fifth",
+      "bundled": true
+    },
+    {
+      "id": "interval.perfect_fourth",
+      "namespace": "interval",
+      "spokenText": "Perfect fourth",
+      "bundled": true
+    },
+    {
+      "id": "interval.tritone",
+      "namespace": "interval",
+      "spokenText": "Tritone",
+      "bundled": true
+    },
+    {
+      "id": "interval.unison",
+      "namespace": "interval",
+      "spokenText": "Unison",
+      "bundled": true
+    },
+    {
+      "id": "note.a",
+      "namespace": "note",
+      "spokenText": "A",
+      "ttsText": "eigh",
+      "ttsVoice": "cori",
+      "bundled": true
+    },
+    {
+      "id": "note.a_double_flat",
+      "namespace": "note",
+      "spokenText": "A double flat",
+      "ttsText": "eigh double flat"
+    },
+    {
+      "id": "note.a_double_sharp",
+      "namespace": "note",
+      "spokenText": "A double sharp",
+      "ttsText": "eigh double sharp"
+    },
+    {
+      "id": "note.a_flat",
+      "namespace": "note",
+      "spokenText": "A flat",
+      "ttsText": "eigh flat",
+      "bundled": true
+    },
+    {
+      "id": "note.a_sharp",
+      "namespace": "note",
+      "spokenText": "A sharp",
+      "ttsText": "eigh sharp",
+      "bundled": true
+    },
+    {
+      "id": "note.b",
+      "namespace": "note",
+      "spokenText": "B",
+      "bundled": true
+    },
+    {
+      "id": "note.b_double_flat",
+      "namespace": "note",
+      "spokenText": "B double flat"
+    },
+    {
+      "id": "note.b_double_sharp",
+      "namespace": "note",
+      "spokenText": "B double sharp"
+    },
+    {
+      "id": "note.b_flat",
+      "namespace": "note",
+      "spokenText": "B flat",
+      "bundled": true
+    },
+    {
+      "id": "note.b_sharp",
+      "namespace": "note",
+      "spokenText": "B sharp"
+    },
+    {
+      "id": "note.c",
+      "namespace": "note",
+      "spokenText": "C",
+      "bundled": true
+    },
+    {
+      "id": "note.c_double_flat",
+      "namespace": "note",
+      "spokenText": "C double flat"
+    },
+    {
+      "id": "note.c_double_sharp",
+      "namespace": "note",
+      "spokenText": "C double sharp"
+    },
+    {
+      "id": "note.c_flat",
+      "namespace": "note",
+      "spokenText": "C flat"
+    },
+    {
+      "id": "note.c_sharp",
+      "namespace": "note",
+      "spokenText": "C sharp",
+      "bundled": true
+    },
+    {
+      "id": "note.d",
+      "namespace": "note",
+      "spokenText": "D",
+      "bundled": true
+    },
+    {
+      "id": "note.d_double_flat",
+      "namespace": "note",
+      "spokenText": "D double flat"
+    },
+    {
+      "id": "note.d_double_sharp",
+      "namespace": "note",
+      "spokenText": "D double sharp"
+    },
+    {
+      "id": "note.d_flat",
+      "namespace": "note",
+      "spokenText": "D flat",
+      "bundled": true
+    },
+    {
+      "id": "note.d_sharp",
+      "namespace": "note",
+      "spokenText": "D sharp",
+      "bundled": true
+    },
+    {
+      "id": "note.e",
+      "namespace": "note",
+      "spokenText": "E",
+      "bundled": true,
+      "ttsVoice": "cori"
+    },
+    {
+      "id": "note.e_double_flat",
+      "namespace": "note",
+      "spokenText": "E double flat"
+    },
+    {
+      "id": "note.e_double_sharp",
+      "namespace": "note",
+      "spokenText": "E double sharp"
+    },
+    {
+      "id": "note.e_flat",
+      "namespace": "note",
+      "spokenText": "E flat",
+      "bundled": true
+    },
+    {
+      "id": "note.e_sharp",
+      "namespace": "note",
+      "spokenText": "E sharp"
+    },
+    {
+      "id": "note.f",
+      "namespace": "note",
+      "spokenText": "F",
+      "bundled": true
+    },
+    {
+      "id": "note.f_double_flat",
+      "namespace": "note",
+      "spokenText": "F double flat"
+    },
+    {
+      "id": "note.f_double_sharp",
+      "namespace": "note",
+      "spokenText": "F double sharp"
+    },
+    {
+      "id": "note.f_flat",
+      "namespace": "note",
+      "spokenText": "F flat"
+    },
+    {
+      "id": "note.f_sharp",
+      "namespace": "note",
+      "spokenText": "F sharp",
+      "bundled": true
+    },
+    {
+      "id": "note.g",
+      "namespace": "note",
+      "spokenText": "G",
+      "bundled": true
+    },
+    {
+      "id": "note.g_double_flat",
+      "namespace": "note",
+      "spokenText": "G double flat"
+    },
+    {
+      "id": "note.g_double_sharp",
+      "namespace": "note",
+      "spokenText": "G double sharp"
+    },
+    {
+      "id": "note.g_flat",
+      "namespace": "note",
+      "spokenText": "G flat",
+      "bundled": true
+    },
+    {
+      "id": "note.g_sharp",
+      "namespace": "note",
+      "spokenText": "G sharp",
+      "bundled": true
+    },
+    {
+      "id": "note.octave.0",
+      "namespace": "note",
+      "spokenText": "zero",
+      "bundled": true
+    },
+    {
+      "id": "note.octave.1",
+      "namespace": "note",
+      "spokenText": "one",
+      "bundled": true,
+      "sharesAudioWith": "degree.one"
+    },
+    {
+      "id": "note.octave.2",
+      "namespace": "note",
+      "spokenText": "two",
+      "ttsVoice": "cori",
+      "bundled": true,
+      "lengthScale": 1.6,
+      "carrierText": "the number is . . . two",
+      "sharesAudioWith": "degree.two"
+    },
+    {
+      "id": "note.octave.3",
+      "namespace": "note",
+      "spokenText": "three",
+      "bundled": true,
+      "lengthScale": 1.2,
+      "sharesAudioWith": "degree.three"
+    },
+    {
+      "id": "note.octave.4",
+      "namespace": "note",
+      "spokenText": "four",
+      "ttsVoice": "jenny",
+      "bundled": true,
+      "sharesAudioWith": "degree.four"
+    },
+    {
+      "id": "note.octave.5",
+      "namespace": "note",
+      "spokenText": "five",
+      "bundled": true,
+      "sharesAudioWith": "degree.five"
+    },
+    {
+      "id": "note.octave.6",
+      "namespace": "note",
+      "spokenText": "six",
+      "bundled": true,
+      "sharesAudioWith": "degree.six"
+    },
+    {
+      "id": "note.octave.7",
+      "namespace": "note",
+      "spokenText": "seven",
+      "bundled": true,
+      "sharesAudioWith": "degree.seven"
+    },
+    {
+      "id": "note.octave.8",
+      "namespace": "note",
+      "spokenText": "eight",
+      "bundled": true
+    },
+    {
+      "id": "note.octave.9",
+      "namespace": "note",
+      "spokenText": "nine",
+      "bundled": true
+    },
+    {
+      "id": "note.octave.minus_1",
+      "namespace": "note",
+      "spokenText": "minus one",
+      "bundled": true
+    },
+    {
+      "id": "scale.dorian",
+      "namespace": "scale",
+      "spokenText": "dorian",
+      "bundled": true
+    },
+    {
+      "id": "scale.harmonic_minor",
+      "namespace": "scale",
+      "spokenText": "harmonic minor",
+      "bundled": true
+    },
+    {
+      "id": "scale.jazz_melodic_minor",
+      "namespace": "scale",
+      "spokenText": "jazz melodic minor",
+      "bundled": true
+    },
+    {
+      "id": "scale.locrian",
+      "namespace": "scale",
+      "spokenText": "locrian",
+      "bundled": true
+    },
+    {
+      "id": "scale.lydian",
+      "namespace": "scale",
+      "spokenText": "lydian",
+      "bundled": true
+    },
+    {
+      "id": "scale.major",
+      "namespace": "scale",
+      "spokenText": "major",
+      "bundled": true,
+      "sharesAudioWith": "chord.major"
+    },
+    {
+      "id": "scale.major_pentatonic",
+      "namespace": "scale",
+      "spokenText": "major pentatonic",
+      "bundled": true
+    },
+    {
+      "id": "scale.minor_blues",
+      "namespace": "scale",
+      "spokenText": "minor blues",
+      "bundled": true
+    },
+    {
+      "id": "scale.minor_pentatonic",
+      "namespace": "scale",
+      "spokenText": "minor pentatonic",
+      "bundled": true
+    },
+    {
+      "id": "scale.mixolydian",
+      "namespace": "scale",
+      "spokenText": "mixolydian",
+      "bundled": true
+    },
+    {
+      "id": "scale.natural_minor",
+      "namespace": "scale",
+      "spokenText": "natural minor",
+      "bundled": true
+    },
+    {
+      "id": "scale.phrygian",
+      "namespace": "scale",
+      "spokenText": "phrygian",
+      "bundled": true
+    },
+    {
+      "id": "scale.whole_tone",
+      "namespace": "scale",
+      "spokenText": "whole tone",
+      "lengthScale": 1.15,
+      "bundled": true
+    },
+    {
+      "id": "harmony.tonic",
+      "namespace": "harmony",
+      "spokenText": "tonic",
+      "bundled": true
+    },
+    {
+      "id": "harmony.predominant",
+      "namespace": "harmony",
+      "spokenText": "predominant",
+      "bundled": true
+    },
+    {
+      "id": "harmony.dominant",
+      "namespace": "harmony",
+      "spokenText": "dominant",
+      "bundled": true
+    }
+  ]
+}

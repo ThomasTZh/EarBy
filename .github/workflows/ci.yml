@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  host:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0 ndk;28.2.13676358 cmake;3.22.1'
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install Python check dependencies
+        run: python -m pip install --disable-pip-version-check pillow numpy uv
+      - uses: gradle/actions/setup-gradle@v6
+        with:
+          # The v6 enhanced cache is a separate proprietary component; stay on the MIT
+          # basic provider so the public build uses only open-source actions.
+          cache-provider: basic
+      - name: Fetch pinned native sources
+        run: scripts/fetch-native-sources.sh
+      - name: Host tests, build and lint
+        run: |
+          mkdir -p build/ci-candidates
+          ./gradlew --dependency-verification strict \
+            spotlessCheck \
+            :core:music:test :core:training:test :core:audio:test :core:media:test \
+            :core:data:testDebugUnitTest :app:testDebugUnitTest \
+            :app:assembleDebug :app:assembleRelease :app:lintDebug :app:lintRelease \
+            -Pear.screenshots.dir=build/ci-candidates
+      - name: Screenshot verification
+        run: ./gradlew --dependency-verification strict :app:verifyRoborazziDebug -Pear.ui.fresh=true
+      - name: Packaged-APK audit
+        run: |
+          scripts/check-apk.sh app/build/outputs/apk/debug/app-debug.apk
+          scripts/check-apk.sh app/build/outputs/apk/release/app-release-unsigned.apk
+      - name: Script and documentation checks
+        run: |
+          python3 -m unittest discover -s scripts/tests
+          python3 scripts/check-docs.py
+          python3 scripts/check-architecture.py
+          python3 scripts/check-verification.py
+          python3 scripts/check-voice-durations.py
+          python3 scripts/screenshot-contract.py app/src/test/screenshots

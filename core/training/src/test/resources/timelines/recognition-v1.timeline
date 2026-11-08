@@ -1,0 +1,37 @@
+# Worked fixture for the Stage 1 recognition timeline compiler.
+# Format: "input:" lines give the compiler input, "event:" lines the expected timeline.
+# Offsets are integer microseconds. Voice length 900 ms is a synthetic test input, not a
+# production asset measurement.
+input noteDurationUs=700000
+input melodicGapUs=100000
+input thinkingSilenceUs=4000000
+input postAnswerSilenceUs=2000000
+input voice interval.perfect_fifth=900000
+input voice interval.unison=900000
+
+case ascending C4 -> G4
+note 0 700000 60
+note 800000 700000 67
+voice 5500000 900000 interval.perfect_fifth
+marker answer_started 5500000
+marker exercise_ended 8400000
+
+case harmonic C4 + G4
+note 0 700000 60
+note 0 700000 67
+voice 4700000 900000 interval.perfect_fifth
+marker answer_started 4700000
+marker exercise_ended 7600000
+
+case descending G4 -> C4
+note 0 700000 67
+note 800000 700000 60
+voice 5500000 900000 interval.perfect_fifth
+marker answer_started 5500000
+marker exercise_ended 8400000
+
+case harmonic unison C4 + C4
+note 0 700000 60
+voice 4700000 900000 interval.unison
+marker answer_started 4700000
+marker exercise_ended 7600000

@@ -1,0 +1,13 @@
+EarBy
+Copyright 2026 Thomas (EarBy project)
+
+This product includes software and assets developed by third parties. The full texts are in
+LICENSES/ and the component list is in THIRD_PARTY_NOTICES.md.
+
+EarBy is an independent offline ear-training application. It is not affiliated with or endorsed
+by Google, MathWorks, MuseScore, Piper, or any voice-dataset provider.
+
+The EarBy name is a project mark. The ear-and-note launcher icon is hand-drawn by Dr Ham Hamster
+and used with her permission; it is not relicensed under Apache-2.0 or CC BY 4.0. The source code
+is licensed under Apache-2.0; other original project assets are licensed under CC BY 4.0 as
+described in docs/legal/ASSET_SOURCES.md.

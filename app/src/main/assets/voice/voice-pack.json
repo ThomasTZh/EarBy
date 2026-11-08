@@ -1,0 +1,2084 @@
+{
+  "schemaVersion": 1,
+  "packId": "english-answers",
+  "packVersion": "2.0.0",
+  "language": "en",
+  "voice": "piper-mixed-english",
+  "entries": [
+    {
+      "id": "chord.augmented",
+      "file": "wav/chord_augmented.wav",
+      "text": "augmented",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 59702,
+      "sha256": "c0335249006eb2a5b869f5762820f630615a6f6db8c64c215cb7f015c35343a9",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.diminished",
+      "file": "wav/chord_diminished.wav",
+      "text": "diminished",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 49145,
+      "sha256": "1812b255e8540e9688ba9028b8322921bf165a7fe97aa5b444ef888c6ce81684",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "chord.diminished_seventh",
+      "file": "wav/chord_diminished_seventh.wav",
+      "text": "diminished seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 91795,
+      "sha256": "247a69bfabb3ee6d26d96a264d424b62b3b50ee7bd7be80a694da032fd06f05e",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "chord.dominant_seventh",
+      "file": "wav/chord_dominant_seventh.wav",
+      "text": "dominant seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 66557,
+      "sha256": "6dc8fc0f8d8c3ad15a0340adfe3cd04f80adea4136a71ff8ee2eb90ac0d9b4d3",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.half_diminished",
+      "file": "wav/chord_half_diminished.wav",
+      "text": "half diminished",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 69471,
+      "sha256": "bc8abcb58fd13763f4f5e3cc18b80125ba9ad74be22164d49e0d9698b4ad1a3a",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "chord.inversion.first",
+      "file": "wav/chord_inversion_first.wav",
+      "text": "first inversion",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 77738,
+      "sha256": "1202fab23e3ad798362f7ff8fe5a8afbcad21808ed9fd737de6f10c72b17690b",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.inversion.root",
+      "file": "wav/chord_inversion_root.wav",
+      "text": "root position",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 89362,
+      "sha256": "df16897191d49ef4c29b8416d5dc13475f868279fa8ff9e2fca4f16d2882cd29",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.inversion.second",
+      "file": "wav/chord_inversion_second.wav",
+      "text": "second inversion",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 78508,
+      "sha256": "5b894435983edc133b700c80d8eb2e5b02f4e5ad411033446fa7e0f0b076fa1a",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.inversion.third",
+      "file": "wav/chord_inversion_third.wav",
+      "text": "third inversion",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 64856,
+      "sha256": "9e621e85ee364038b6f9a31844c9d0327112ab3c04c2b3de2e6b7bb473205b98",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.major",
+      "file": "wav/chord_major.wav",
+      "text": "major",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 42527,
+      "sha256": "1411a935f91cf9018093aed0315b67fd18d8c98d08e933f1f9375a20008fd0cc",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.major_seventh",
+      "file": "wav/interval_major_seventh.wav",
+      "text": "major seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 90034,
+      "sha256": "d3d7935fd5b915fd333d6e2969746ed9aed41fe822429bea7c225859a3a26fc7",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with interval.major_seventh at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved interval.major_seventh take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "chord.minor",
+      "file": "wav/chord_minor.wav",
+      "text": "minor",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 38416,
+      "sha256": "1fd0da69220d172764b9dd4676476b942710f7af93e2bf82411a9513ef0be902",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.minor_seventh",
+      "file": "wav/interval_minor_seventh.wav",
+      "text": "minor seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 77196,
+      "sha256": "8a38ca2c1413e7ec7553e13e2a5ff319c767c5b42fe84d5db5c079e49b0a487c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with interval.minor_seventh at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved interval.minor_seventh take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "chord.sus2",
+      "file": "wav/chord_sus2.wav",
+      "text": "sus two",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 55085,
+      "sha256": "d93db874bd80751a4807b655d497d156087e579d3ee7d13fd9807cb7f8328cd1",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "chord.sus4",
+      "file": "wav/chord_sus4.wav",
+      "text": "sus four",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 50828,
+      "sha256": "3fd030b91e245014dfac528c00e6699eac794334979e148c81a9b7854f69d717",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-jenny_dioco-medium, local CPU generation",
+        "license": "see https://github.com/dioco-group/jenny-tts-dataset",
+        "model": "en_GB-jenny_dioco-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-jenny_dioco-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "connector.ascending",
+      "file": "wav/connector_ascending.wav",
+      "text": "ascending",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 51000,
+      "sha256": "cd549f3029f69a6e568a2af1b9f768c8bf3d64b2a00bbcf18c587011c8b7f172",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "connector.descending",
+      "file": "wav/connector_descending.wav",
+      "text": "descending",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 52762,
+      "sha256": "1930ca9cf508f0660f9154e4278d439a6d8616173ab7f40dcb87afeb8bf3a3b4",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "connector.or",
+      "file": "wav/connector_or.wav",
+      "text": "or",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40746,
+      "sha256": "18a5fce2e6c0530c45e356c7cd0c017eba3e0f9e697f6903698dae6c7ebbd41c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "connector.unison",
+      "file": "wav/interval_unison.wav",
+      "text": "unison",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 72403,
+      "sha256": "4c15fc2d5a07def943245e3e21d67a11ed04a867986603f1edc9262e153c772c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with interval.unison at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved interval.unison take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "degree.five",
+      "file": "wav/degree_five.wav",
+      "text": "five",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 35119,
+      "sha256": "5072a516824a1e1b2924a6401f71c8fbc3af23f1193e82669f5c7ccc6aec5ff5",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "degree.four",
+      "file": "wav/degree_four.wav",
+      "text": "four",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 29180,
+      "sha256": "5d9373ad89bc9b266896454af68810efdec99ff20d93ced618964c75beb77fa3",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-jenny_dioco-medium, local CPU generation",
+        "license": "see https://github.com/dioco-group/jenny-tts-dataset",
+        "model": "en_GB-jenny_dioco-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-jenny_dioco-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "degree.one",
+      "file": "wav/degree_one.wav",
+      "text": "one",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40171,
+      "sha256": "950bc37f60e4dec8d7b7fd1ebd1e7ac4bf2576177b28e793b111911ea7c16235",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "degree.seven",
+      "file": "wav/degree_seven.wav",
+      "text": "seven",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 49465,
+      "sha256": "abbdd4f67b50e134b63a8b40cd308c79e83fe85ef43a053f11c60480acc8c64e",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "degree.six",
+      "file": "wav/degree_six.wav",
+      "text": "six",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 58862,
+      "sha256": "6160e7d366625db815c306cfe5cfe3aa4da8bd7e894814d6dc6f62cf07db1639",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "degree.three",
+      "file": "wav/degree_three.wav",
+      "text": "three",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40726,
+      "sha256": "667ed461154cda1c22ff2a0615e31e5453b38f210461353eae5cb233bd6754bf",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "degree.two",
+      "file": "wav/degree_two.wav",
+      "text": "two",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 43405,
+      "sha256": "f45bbd9d5231d727f1677b13e0858d6093aa8449030e5236a89da98b409b5202",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-cori-high, local CPU generation; word cut from the carrier 'the number is . . . two' with phoneme alignments",
+        "license": "public domain (LibriVox recordings, https://librivox.org)",
+        "model": "en_GB-cori-high",
+        "modelRevision": "rhasspy/piper-voices en_GB-cori-high",
+        "seed": "model default sampling",
+        "postprocessing": "carrier cut with Piper phoneme alignments, length_scale=1.6 synthesis, ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "chosen from the gap/final carrier listening sheet on 2026-10-17: Cori, 'the number is . . . two', length scale 1.6"
+      }
+    },
+    {
+      "id": "interval.major_second",
+      "file": "wav/interval_major_second.wav",
+      "text": "Major second",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 81336,
+      "sha256": "609132d69d48e21bdc42ad726b0a2b2ee4e048f9a57d9bf8f549108bfaf127d9",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.major_seventh",
+      "file": "wav/interval_major_seventh.wav",
+      "text": "Major seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 90034,
+      "sha256": "d3d7935fd5b915fd333d6e2969746ed9aed41fe822429bea7c225859a3a26fc7",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.major_sixth",
+      "file": "wav/interval_major_sixth.wav",
+      "text": "Major sixth",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 81585,
+      "sha256": "98eb92b5816e82483d16ea9fab0c16543496125e67cc37f9e7a9cf0fcf1e2b48",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.major_third",
+      "file": "wav/interval_major_third.wav",
+      "text": "Major third",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 60579,
+      "sha256": "bf3a7da67304ce0b4a46ceeb1e7913e060cde340d5f751713f165dacac910ad8",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.minor_second",
+      "file": "wav/interval_minor_second.wav",
+      "text": "Minor second",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 69373,
+      "sha256": "aa4b82c29672c6419f1dcc1a730dd42032e386e533575d0cdc50392f7ed74b25",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.minor_seventh",
+      "file": "wav/interval_minor_seventh.wav",
+      "text": "Minor seventh",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 77196,
+      "sha256": "8a38ca2c1413e7ec7553e13e2a5ff319c767c5b42fe84d5db5c079e49b0a487c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.minor_sixth",
+      "file": "wav/interval_minor_sixth.wav",
+      "text": "Minor sixth",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 66531,
+      "sha256": "3c30691ef873ece4a38bf3c2430b4aea293c0b8912d3b831b705cbe86e9ad8df",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.minor_third",
+      "file": "wav/interval_minor_third.wav",
+      "text": "Minor third",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 68003,
+      "sha256": "2c728b0ce12f375a6ff42ea7072f8bd8099e2ecec900c9e172a0c195d29bf92c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.octave",
+      "file": "wav/interval_octave.wav",
+      "text": "Octave",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40408,
+      "sha256": "8ad543922de9ec800884925fcac60d48ec7b575316b22ea115a1f6d8f4e19a3c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.perfect_fifth",
+      "file": "wav/interval_perfect_fifth.wav",
+      "text": "Perfect fifth",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 81349,
+      "sha256": "04838b2b7568507651defb45ca361aadb4f246a8567990020b79161b8801d2c5",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.perfect_fourth",
+      "file": "wav/interval_perfect_fourth.wav",
+      "text": "Perfect fourth",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 85591,
+      "sha256": "913efb70c39dd285fcb30452fcb7449c3db42f8d89258d4aa9310d34967c927c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.tritone",
+      "file": "wav/interval_tritone.wav",
+      "text": "Tritone",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 44911,
+      "sha256": "6e4f461272f2f5751e90899da3ea01a2dc1040e96bcecab963df86b4d5e2be56",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "interval.unison",
+      "file": "wav/interval_unison.wav",
+      "text": "Unison",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 72403,
+      "sha256": "4c15fc2d5a07def943245e3e21d67a11ed04a867986603f1edc9262e153c772c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted in the 2026-10-14 interval voice refresh"
+      }
+    },
+    {
+      "id": "note.a",
+      "file": "wav/note_a.wav",
+      "text": "A",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 43364,
+      "sha256": "0f5f214f2a0b617538db3c1c44b2f28372f7b50ff8f9b034af3c8834326b70bd",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-cori-high, local CPU generation",
+        "license": "public domain (LibriVox recordings, https://librivox.org)",
+        "model": "en_GB-cori-high",
+        "modelRevision": "rhasspy/piper-voices en_GB-cori-high",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "note.a_flat",
+      "file": "wav/note_a_flat.wav",
+      "text": "A flat",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 47793,
+      "sha256": "34c303c2537edd1910b35c8b6bd37c151cb5d367223310c3fed2246ff3045161",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "note.a_sharp",
+      "file": "wav/note_a_sharp.wav",
+      "text": "A sharp",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 43703,
+      "sha256": "44fcff6e203d7a561f4127fea8c0ce762ba1d27ed5ee45c62b94ef649cbda968",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "note.b",
+      "file": "wav/note_b.wav",
+      "text": "B",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 35057,
+      "sha256": "605be5365de1ba1bf823c260c3da480cc86b1a60a29c907dd41e695245bf7d04",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review"
+      }
+    },
+    {
+      "id": "note.b_flat",
+      "file": "wav/note_b_flat.wav",
+      "text": "B flat",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 56559,
+      "sha256": "2c49d6e96b8e763b987c28ee830a8087a67f12b13cbe1fbf44295b2e98a76b13",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.c",
+      "file": "wav/note_c.wav",
+      "text": "C",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 37138,
+      "sha256": "261e2faaa3c703978f13ee893d549028f211dbaea7b6c9ddaac70e4d7db3d06d",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.c_sharp",
+      "file": "wav/note_c_sharp.wav",
+      "text": "C sharp",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 55693,
+      "sha256": "0def2ce05ee8b52b187ca0a6bd2ce34df53dd5b66f126de5f45f4fc2333dd465",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.d",
+      "file": "wav/note_d.wav",
+      "text": "D",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 37415,
+      "sha256": "e220133c2e22933100475ecbc1849a0d73e8750f99976b008bcc9001347b5d43",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review"
+      }
+    },
+    {
+      "id": "note.d_flat",
+      "file": "wav/note_d_flat.wav",
+      "text": "D flat",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 54737,
+      "sha256": "a8abe1ff3b3bad561af0f33c2039e942fd94ca7fe6cda4e5ccf6ccbfb2d44761",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.d_sharp",
+      "file": "wav/note_d_sharp.wav",
+      "text": "D sharp",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 44543,
+      "sha256": "188d9e7dd2b63d8447990b47fbad1b766abda8ca5c51fe1bf37def88f167d7d8",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.e",
+      "file": "wav/note_e.wav",
+      "text": "E",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 35733,
+      "sha256": "8afe2c95e53a34bb4cdb4b245336e0c0cf31589bf3bc55f5bd55ef1822923816",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-cori-high, local CPU generation",
+        "license": "public domain (LibriVox recordings, https://librivox.org)",
+        "model": "en_GB-cori-high",
+        "modelRevision": "rhasspy/piper-voices en_GB-cori-high",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "cori-E accepted in the second letter listening round (2026-10-14)"
+      }
+    },
+    {
+      "id": "note.e_flat",
+      "file": "wav/note_e_flat.wav",
+      "text": "E flat",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 57834,
+      "sha256": "5e0155786c45661abdb3c84754218a268e600859aa5b5a8f1b59f5ed65a37fbf",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.f",
+      "file": "wav/note_f.wav",
+      "text": "F",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 34642,
+      "sha256": "59c78b477a13d29bc27a3357bdb05c470d28203e4237207cc3663fc7cde78db5",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review"
+      }
+    },
+    {
+      "id": "note.f_sharp",
+      "file": "wav/note_f_sharp.wav",
+      "text": "F sharp",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 36429,
+      "sha256": "9c4fc710d04b581434fe19693f3c508c2ec80d393142ba4cc8aa22a813512217",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.g",
+      "file": "wav/note_g.wav",
+      "text": "G",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 36228,
+      "sha256": "5f7b155bb9aa04e4f58ccc46b00c0ef193cd67ad73974c614a98dbca86306a99",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review"
+      }
+    },
+    {
+      "id": "note.g_flat",
+      "file": "wav/note_g_flat.wav",
+      "text": "G flat",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 52381,
+      "sha256": "5de02b838024e94d7a4fc5c080c1c558b02f8e078e632182072fa7bc6194f871",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.g_sharp",
+      "file": "wav/note_g_sharp.wav",
+      "text": "G sharp",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 45913,
+      "sha256": "1364042a23b0241c39d55d8dd4c6c09dbaa8b8aa282934d7bfc1f68a85f6cd4e",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.octave.0",
+      "file": "wav/note_octave_0.wav",
+      "text": "zero",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 44994,
+      "sha256": "fcf325c7df6115a6d89afb9f65fed7fa4a5e67dd665e27db1d9df365be1659a3",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.octave.1",
+      "file": "wav/degree_one.wav",
+      "text": "one",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40171,
+      "sha256": "950bc37f60e4dec8d7b7fd1ebd1e7ac4bf2576177b28e793b111911ea7c16235",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with degree.one at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.one take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.2",
+      "file": "wav/degree_two.wav",
+      "text": "two",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 43405,
+      "sha256": "f45bbd9d5231d727f1677b13e0858d6093aa8449030e5236a89da98b409b5202",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-cori-high, local CPU generation; shares the word cut from the carrier 'the number is . . . two' with degree.two",
+        "license": "public domain (LibriVox recordings, https://librivox.org)",
+        "model": "en_GB-cori-high",
+        "modelRevision": "rhasspy/piper-voices en_GB-cori-high",
+        "seed": "model default sampling",
+        "postprocessing": "carrier cut with Piper phoneme alignments, length_scale=1.6 synthesis, ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.two Cori carrier take; requested 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.3",
+      "file": "wav/degree_three.wav",
+      "text": "three",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 40726,
+      "sha256": "667ed461154cda1c22ff2a0615e31e5453b38f210461353eae5cb233bd6754bf",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with degree.three at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.three take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.4",
+      "file": "wav/degree_four.wav",
+      "text": "four",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 29180,
+      "sha256": "5d9373ad89bc9b266896454af68810efdec99ff20d93ced618964c75beb77fa3",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-jenny_dioco-medium, local CPU generation (shared with degree.four at the owner's request)",
+        "license": "see https://github.com/dioco-group/jenny-tts-dataset",
+        "model": "en_GB-jenny_dioco-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-jenny_dioco-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.four take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.5",
+      "file": "wav/degree_five.wav",
+      "text": "five",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 35119,
+      "sha256": "5072a516824a1e1b2924a6401f71c8fbc3af23f1193e82669f5c7ccc6aec5ff5",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with degree.five at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.five take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.6",
+      "file": "wav/degree_six.wav",
+      "text": "six",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 58862,
+      "sha256": "6160e7d366625db815c306cfe5cfe3aa4da8bd7e894814d6dc6f62cf07db1639",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with degree.six at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.six take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.7",
+      "file": "wav/degree_seven.wav",
+      "text": "seven",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 49465,
+      "sha256": "abbdd4f67b50e134b63a8b40cd308c79e83fe85ef43a053f11c60480acc8c64e",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with degree.seven at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved degree.seven take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "note.octave.8",
+      "file": "wav/note_octave_8.wav",
+      "text": "eight",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 33612,
+      "sha256": "a35d7ea2e57b4e547735573ad30420201e784208b4243776cd7762514a79abb7",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.octave.9",
+      "file": "wav/note_octave_9.wav",
+      "text": "nine",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 42667,
+      "sha256": "b06616d51f668e3831ab5b43b472c308d3f4bbb20442606c4fce633fe436d334",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "note.octave.minus_1",
+      "file": "wav/note_octave_minus_1.wav",
+      "text": "minus one",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 68040,
+      "sha256": "90a13b0cb3ca757104ef8ef152e4c0beb4ddebda308f2ce29097e5abef4ede14",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.dorian",
+      "file": "wav/scale_dorian.wav",
+      "text": "dorian",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 42908,
+      "sha256": "dd834e6ba5004642bd9536ef0f107154f69b39a8952738d53599dc24d110a0e1",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.harmonic_minor",
+      "file": "wav/scale_harmonic_minor.wav",
+      "text": "harmonic minor",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 67918,
+      "sha256": "3fab1bb1d324ba6aee43273ddca6ebafba14b5f2ec9361080df6717f17607b52",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.jazz_melodic_minor",
+      "file": "wav/scale_jazz_melodic_minor.wav",
+      "text": "jazz melodic minor",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 83273,
+      "sha256": "7db762a10c2e2bb2fbc66af28108d9b224fe978dd9044749603c8fda9698c068",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.locrian",
+      "file": "wav/scale_locrian.wav",
+      "text": "locrian",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 45216,
+      "sha256": "df74ca21d0e57e5e3fd66157e026fca5098a0297cd8b6f5b5e35d3ffcf6103ea",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.lydian",
+      "file": "wav/scale_lydian.wav",
+      "text": "lydian",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 41135,
+      "sha256": "8fe1fa6c60e748bc79e6783f5392ca961ac74fec39a0da3edc45f230472baae0",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.major",
+      "file": "wav/chord_major.wav",
+      "text": "major",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 42527,
+      "sha256": "1411a935f91cf9018093aed0315b67fd18d8c98d08e933f1f9375a20008fd0cc",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation (shared with chord.major at the owner's request)",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-17",
+        "reviewer": "user (project owner)",
+        "notes": "shares the owner-approved chord.major take; sharing approved 2026-10-17"
+      }
+    },
+    {
+      "id": "scale.major_pentatonic",
+      "file": "wav/scale_major_pentatonic.wav",
+      "text": "major pentatonic",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 71132,
+      "sha256": "160fee0626bc25b72f90fd7a76b4a05acbb5b649cca1ff6c1c827e8dc4547450",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.minor_blues",
+      "file": "wav/scale_minor_blues.wav",
+      "text": "minor blues",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 66054,
+      "sha256": "24f55ab35e6adb37f65b765c5a5f70d1149ede0fbf549807f5c66a7e2eb74914",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.minor_pentatonic",
+      "file": "wav/scale_minor_pentatonic.wav",
+      "text": "minor pentatonic",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 102261,
+      "sha256": "b81d1f7712ef7a61f1442e43972ca1c81312cd68ea25be70386929c3efc9ef7b",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.mixolydian",
+      "file": "wav/scale_mixolydian.wav",
+      "text": "mixolydian",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 57264,
+      "sha256": "b5f10b1204eab51b9589977e14f6524e520118026f11326d08172bfed47e923d",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.natural_minor",
+      "file": "wav/scale_natural_minor.wav",
+      "text": "natural minor",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 69375,
+      "sha256": "41124d6f99f7a85dc2cfd2a0692a8b57db1594f5ab645597612022826881e668",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.phrygian",
+      "file": "wav/scale_phrygian.wav",
+      "text": "phrygian",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 62723,
+      "sha256": "9c8d643dd8cd035ce4bddfb3129e84d5db2324bc71a4e0ef60480666e754159c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the first listening pass (2026-10-12)"
+      }
+    },
+    {
+      "id": "scale.whole_tone",
+      "file": "wav/scale_whole_tone.wav",
+      "text": "whole tone",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 58709,
+      "sha256": "047ec6cab1417904529fb1f28da26c5d8f5104150d55496cec6ac38d1367dd17",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-12",
+        "reviewer": "user (project owner)",
+        "notes": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass"
+      }
+    },
+    {
+      "id": "harmony.tonic",
+      "file": "wav/harmony_tonic.wav",
+      "text": "tonic",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 48882,
+      "sha256": "319bcadb2947d85312d7a2540a9722e51bc64d2e25d3c2277fc037dc54ef528c",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the M9A listening round"
+      }
+    },
+    {
+      "id": "harmony.predominant",
+      "file": "wav/harmony_predominant.wav",
+      "text": "predominant",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 82857,
+      "sha256": "ec84c648c4469a649d2e170a1ccadab97eafa6c640b4e65893dce0d8b8c8945a",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the M9A listening round"
+      }
+    },
+    {
+      "id": "harmony.dominant",
+      "file": "wav/harmony_dominant.wav",
+      "text": "dominant",
+      "sampleRate": 48000,
+      "channels": 1,
+      "bitDepth": 16,
+      "frameCount": 48416,
+      "sha256": "44926056f496ff3f14ee9f0b6dd2062ac26a895911130ed17a489ba17e8470ee",
+      "source": {
+        "kind": "generated",
+        "reference": "Piper voice en_GB-alba-medium, local CPU generation",
+        "license": "CC BY 4.0 (https://datashare.ed.ac.uk/handle/10283/3270)",
+        "model": "en_GB-alba-medium",
+        "modelRevision": "rhasspy/piper-voices en_GB-alba-medium",
+        "seed": "model default sampling",
+        "postprocessing": "ffmpeg silenceremove + 80 ms leading and 120 ms trailing pad, atempo=0.85 rate control, two-pass loudnorm I=-20 LUFS TP=-3 dBTP, mono 48 kHz PCM16"
+      },
+      "review": {
+        "humanAccepted": true,
+        "reviewedAt": "2026-10-14",
+        "reviewer": "user (project owner)",
+        "notes": "accepted by the reviewer in the M9A listening round"
+      }
+    }
+  ]
+}

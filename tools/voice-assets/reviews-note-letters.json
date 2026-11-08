@@ -1,0 +1,50 @@
+{
+  "packId": "english-answers",
+  "packVersion": "2.0.0",
+  "reviewedAt": "2026-10-14",
+  "reviewer": "user (project owner)",
+  "method": "listened to the letter-list split set and the current clips",
+  "outcome": "B, D, F and G from the alba list split; A and C keep the current clips; E replaced by the owner-accepted cori take",
+  "entries": [
+    {
+      "id": "note.b",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted from the split 'A. B. C. D. E. F. G.' alba take in the 2026-10-14 letter review",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "cori-E accepted in the second letter listening round (2026-10-14)",
+      "reviewedAt": "2026-10-14",
+      "reviewer": "user (project owner)"
+    }
+  ]
+}

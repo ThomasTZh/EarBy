@@ -1,0 +1,9 @@
+[project]
+name = "passive-ear-music-fixtures"
+version = "0.1.0"
+description = "Independent music21 oracle and fixture generator for the v0.2.x theory catalogs."
+requires-python = ">=3.11"
+dependencies = ["music21==10.5.0"]
+
+[tool.uv]
+package = false

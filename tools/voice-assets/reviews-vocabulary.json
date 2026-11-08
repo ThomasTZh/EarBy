@@ -1,0 +1,877 @@
+{
+  "packId": "english-vocabulary",
+  "packVersion": "0.2.0",
+  "reviewedAt": "2026-10-12",
+  "reviewer": "user (project owner)",
+  "method": "listened to full-synthesis candidate rounds on the development host; five repair rounds; final folder accepted",
+  "outcome": "all 107 new vocabulary clips accepted by the reviewer",
+  "perClipVoices": {
+    "en_GB-alba-medium": "default for most clips",
+    "en_GB-jenny_dioco-medium": "do syllable (incl. sharp), four and two words",
+    "en_US-amy-medium": "fa and la syllables (incl. sharp forms)",
+    "en_GB-cori-high": "isolated letter A"
+  },
+  "notes": [
+    "The thirteen interval clips were frozen throughout and are not part of this review.",
+    "Rejected during the rounds: cut-syllable takes and raw-phoneme takes (all), alba fah/lah, alba dough at standalone length, the alba isolated letter A.",
+    "Repaired clips were frozen byte-identical to the owner-auditioned takes where the owner picked a specific file."
+  ],
+  "entries": [
+    {
+      "id": "chord.augmented",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.diminished",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.diminished_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.dominant_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.half_diminished",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.inversion.first",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.inversion.root",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.inversion.second",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.inversion.third",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.major",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.major_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved interval.major_seventh take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.minor",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.minor_seventh",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved interval.minor_seventh take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.sus2",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "chord.sus4",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "connector.ascending",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "connector.descending",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "connector.or",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "connector.unison",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved interval.unison take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.five",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.four",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.one",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.seven",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.six",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.do",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.fa",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.la",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.le",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.me",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.mi",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.re",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.sol",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.te",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.syllable.ti",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.three",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "degree.two",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "chosen from the gap/final carrier listening sheet on 2026-10-17: Cori, 'the number is . . . two', length scale 1.6",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.do",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.do_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.fa",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.fa_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.la",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.la_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.mi",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.re",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.re_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.si",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.sol",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "fixeddo.sol_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.a",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.a_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.a_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.a_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.a_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.b",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.b_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.b_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.b_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.b_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.c",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.c_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.c_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.c_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.c_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.d_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.e_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.f_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g_double_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g_double_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g_flat",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.g_sharp",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.0",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.1",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.one take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.2",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "reuses the owner-approved degree.two Cori carrier take (requested 2026-10-17)",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.3",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.three take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.4",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.four take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.5",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.five take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.6",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.six take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.7",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved degree.seven take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.8",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.9",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "note.octave.minus_1",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.dorian",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.harmonic_minor",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.jazz_melodic_minor",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.locrian",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.lydian",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.major",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "shares the owner-approved chord.major take; sharing approved 2026-10-17",
+      "reviewedAt": "2026-10-17",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.major_pentatonic",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.minor_blues",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.minor_pentatonic",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.mixolydian",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.natural_minor",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.phrygian",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "accepted by the reviewer in the first listening pass (2026-10-12)",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    },
+    {
+      "id": "scale.whole_tone",
+      "humanAccepted": true,
+      "verdict": "accepted",
+      "reason": "repaired during the 2026-10-12 listening rounds (respellings/per-clip voice/length) and accepted in the final pass",
+      "reviewedAt": "2026-10-12",
+      "reviewer": "user (project owner)"
+    }
+  ]
+}

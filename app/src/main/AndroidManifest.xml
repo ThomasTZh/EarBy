@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+  <!-- Playback is owned by a media playback foreground service, so the app declares that service
+       type and its permission. No INTERNET permission is declared or merged: the product is
+       offline by contract, and scripts/check-apk.sh fails the build if one ever appears. -->
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+  <!-- Held only while sound is being produced, so playback survives the screen turning off. -->
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <!--
+    Media3's own manifest contributes ACCESS_NETWORK_STATE. Nothing here is networked, and the
+    product is offline by contract, so the merged permission is removed explicitly rather than left
+    to chance. scripts/check-apk.sh fails if a network permission ever reappears.
+  -->
+  <uses-permission
+      android:name="android.permission.ACCESS_NETWORK_STATE"
+      tools:node="remove" />
+  <application
+      android:name=".app.PassiveEarTrainingApp"
+      android:allowBackup="false"
+      android:dataExtractionRules="@xml/data_extraction_rules"
+      android:fullBackupContent="@xml/backup_rules"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/Theme.PassiveEarTraining">
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <!--
+      The session service is the single playback owner. It is not exported: only this app's
+      controllers may bind, and Media3's own intent filter is what the platform media controls use.
+    -->
+    <service
+        android:name="com.thomas.passiveeartraining.app.TrainingPlaybackService"
+        android:exported="false"
+        android:foregroundServiceType="mediaPlayback">
+      <intent-filter>
+        <action android:name="androidx.media3.session.MediaSessionService" />
+        <action android:name="android.media.browse.MediaBrowserService" />
+      </intent-filter>
+    </service>
+  </application>
+</manifest>

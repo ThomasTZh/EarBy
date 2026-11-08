@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "name": "drawer",
+      "file": "drawer.png",
+      "status": "approved",
+      "sha256": "78a2d0412438e203f2ffc2aaa6329bdc46eb3a2a0e57cc3efb653fc462620d47"
+    },
+    {
+      "name": "play-answer",
+      "file": "play-answer.png",
+      "status": "approved",
+      "sha256": "20481b59828d728b808708688504cdabe33d4552dc5c6f222598657873f58812"
+    },
+    {
+      "name": "play-idle",
+      "file": "play-idle.png",
+      "status": "approved",
+      "sha256": "ff2ebb04506f01469b2c4afd4d38359ebf1815c052272e4f1cc1e1ff9722fb47"
+    },
+    {
+      "name": "play-large-text",
+      "file": "play-large-text.png",
+      "status": "approved",
+      "sha256": "e770d62306688eb101e153942e2025d694f48ffa7e1719c84eb1994a65541b2a"
+    },
+    {
+      "name": "play-sleep-picker",
+      "file": "play-sleep-picker.png",
+      "status": "approved",
+      "sha256": "c654a0a2507390fbf9afbf6b377d1b726f644c9d895c7a5f46ee4ab93035a0c5"
+    },
+    {
+      "name": "presets",
+      "file": "presets.png",
+      "status": "approved",
+      "sha256": "a122dc66c6993628e590d9c40fa0b6177a027ec4bc56fe8c7bd9f19bde96232e"
+    },
+    {
+      "name": "settings",
+      "file": "settings.png",
+      "status": "approved",
+      "sha256": "dcd6bd5b76a1454df4c47d0b629ac4cb184185be0a3f99acfbf5def3e2f3abb8"
+    },
+    {
+      "name": "setup-basic",
+      "file": "setup-basic.png",
+      "status": "approved",
+      "sha256": "440379482c00d119a90bb40697cef90e583e774d47711cf5f35e1313c9b9d2ea"
+    },
+    {
+      "name": "setup-picker",
+      "file": "setup-picker.png",
+      "status": "approved",
+      "sha256": "9dc3873b07faa7116e1af0576288d4025cc8dc6429f0e96393fa26039ceb3530"
+    }
+  ]
+}

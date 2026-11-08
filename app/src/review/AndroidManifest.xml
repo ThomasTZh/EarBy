@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <application android:name="com.thomas.passiveeartraining.app.ReviewApplication"
+      android:label="EarBy (Review)" tools:replace="android:name,android:label">
+    <service android:name="com.thomas.passiveeartraining.app.TrainingPlaybackService" tools:node="remove" />
+    <service android:name="com.thomas.passiveeartraining.app.ReviewPlaybackService"
+        android:exported="false" android:foregroundServiceType="mediaPlayback">
+      <intent-filter>
+        <action android:name="androidx.media3.session.MediaSessionService" />
+        <action android:name="android.media.browse.MediaBrowserService" />
+      </intent-filter>
+    </service>
+  </application>
+</manifest>

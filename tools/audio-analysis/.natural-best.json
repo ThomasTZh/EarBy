@@ -1,0 +1,52 @@
+{
+  "interval.major_second": {
+    "take": "d1",
+    "endSlope": -7.8006631207457255,
+    "range": 25.052942032888758
+  },
+  "interval.major_sixth": {
+    "take": "d5",
+    "endSlope": -11.751426702674227,
+    "range": 17.90989194431042
+  },
+  "interval.major_third": {
+    "take": "d4",
+    "endSlope": -17.034965724591633,
+    "range": 17.596929239490713
+  },
+  "interval.minor_second": {
+    "take": "d5",
+    "endSlope": 2.0503297305487878,
+    "range": 15.284486451549594
+  },
+  "interval.minor_sixth": {
+    "take": "d1",
+    "endSlope": -7.976232751029782,
+    "range": 13.682265125253561
+  },
+  "interval.minor_third": {
+    "take": "d1",
+    "endSlope": -2.424575269913057,
+    "range": 11.205378009155865
+  },
+  "interval.perfect_fifth": {
+    "take": "d1",
+    "endSlope": -16.858166864735548,
+    "range": 18.296402107603146
+  },
+  "interval.perfect_fourth": {
+    "take": "d5",
+    "endSlope": -19.212667832220976,
+    "range": 22.268159850797684
+  },
+  "interval.tritone": {
+    "take": "d2",
+    "endSlope": 0.7248319245278452,
+    "range": 11.172574301412826
+  },
+  "interval.unison": {
+    "take": "d1",
+    "endSlope": -9.644379252156206,
+    "range": 12.766267896861162
+  }
+}

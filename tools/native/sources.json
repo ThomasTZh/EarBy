@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Immutable native source inputs for core:audio. scripts/fetch-native-sources.sh verifies every SHA-256 before extracting, and never downloads during an ordinary build.",
+  "sources": [
+    {
+      "name": "miniaudio",
+      "role": "WAV decoding, channel/rate conversion, test-tone waveform generation and WAV encoding for the host harness. Device I/O is disabled; AudioTrack owns playback.",
+      "classification": "runtime",
+      "url": "https://raw.githubusercontent.com/mackron/miniaudio/0.11.24/miniaudio.h",
+      "version": "0.11.24",
+      "revision": "0.11.24",
+      "stripComponents": 0,
+      "archiveSha256": "c029554572ae71a94b7825ef1ab9bd7e646344a79e2e852a03f8b18e428c1443",
+      "license": "MIT-0 OR Unlicense-0",
+      "licenseFile": "miniaudio.h (license header)",
+      "modifications": "None. Single-header dependency compiled into core:audio.",
+      "buildFlags": [
+        "MA_NO_DEVICE_IO",
+        "MA_NO_ENCODING disabled for the host harness only"
+      ],
+      "owningPackage": "WP2.2"
+    }
+  ]
+}

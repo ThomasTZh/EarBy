@@ -1,0 +1,27 @@
+android-studio-*-linux.tar.gz
+**/build/
+**/.cxx/
+.env
+.gradle/
+.idea/
+*.iml
+*.jks
+*.keystore
+keystore.properties
+.kotlin/
+.local/
+local.properties
+*.pyc
+__pycache__/
+tools/**/candidates/
+tools/*/candidates/
+tools/*/.generate.log
+tools/**/raw/
+tools/*/raw/
+tools/*/.smoke.log
+.venv/
+
+# Fetched binary assets: approved repository inputs that are too large to version.
+app/src/main/assets/soundfont/*.sf2
+app/src/main/assets/soundfont/*.sf3
+dist/
